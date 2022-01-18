@@ -1,0 +1,43 @@
+img{
+    float: center;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-width: 5px;
+    border-style: double;
+}
+
+.titulo{
+    display:flex;
+    color:rgb(112, 14, 14);
+    font-size:x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.cita{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+.footer{
+    display: inline;
+    border-top: black;
+}
+body{
+    background-color:rgb(196, 161, 129);
+}
