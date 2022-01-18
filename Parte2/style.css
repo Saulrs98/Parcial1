@@ -150,6 +150,7 @@ header,.content{
         border-width: 1px;
         justify-content: flex-start;
     }
+    
     .nav > li {
       margin: 5px;
       flex-basis: 100%;
