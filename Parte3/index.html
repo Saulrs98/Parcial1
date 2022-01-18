@@ -63,6 +63,17 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
 
 
 */
+let p1 = new Perro('Pepe','Cafe','French Puddle');
+let p2 = new Perro('Brothy','Negro','Doberman');
+let p3 = new Perro('Tony','Amarillo','Labrador');
+
+function Perro(nombre,color,raza){
+  this.nombre = nombre;
+  this.color = color;
+  this.raza = raza;
+}
+
+
 
 
 
@@ -74,7 +85,10 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
 
 
 mayusculas(nombres);
-calculateDogAge(4) 
+calculateDogAge(4);
+console.log(p1.nombre);
+console.log(p2.color);
+console.log(p3.raza);
 
 
 
